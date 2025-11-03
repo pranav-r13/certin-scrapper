@@ -1,0 +1,33 @@
+{
+  "source_file": "CERT-In Advisory Oct 22 2025.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "CERT-In Advisory CIAD-2025-0039\nMultiple Vulnerabilities in Oracle Products\nOriginal Issue Date: October 22, 2025\nSeverity Rating: High\nSoftware Aﬀected\n• Oracle MySQL\n• Java SE\n• Oracle Database Server\n• WebLogic Server\n• VirtualBox\nFor complete list of aﬀected products refer to the oracle advisory:https://www.oracle.com/security-alerts/cpuoct2025.html\nOverview\nMultiple vulnerabilities have been reported in various Oracle products, which could be exploited by a remote attacker to trigger\nelevation of privilege, denial of service condition, remote code execution, data manipulation, sensitive information disclosure\nand security restriction bypass on the targeted system.\nTarget Audience:\nIndividuals and organisational users of the above-mentioned Oracle products.\nRisk Assessment:\nHigh risk of information disclosure, data manipulation, system instability and arbitrary code execution.\nImpact Assessment:\nPotential unauthorized access to sensitive information, denial of service, data manipulation, and complete takeover of control of\nthe target system.\nDescription\nOracle products are used for several applications including enterprise-level data management, cloud solutions, software\ndevelopment, and business applications. They are employed across a wide range of sectors, including ﬁnance, healthcare,\nmanufacturing, government, and retail, among others.\nMultiple vulnerabilities have been reported in various components of Oracle products.\nSuccessful exploitation of these vulnerabilities could allow an attacker to trigger elevation of privilege, denial of service\ncondition, remote code execution, data manipulation, sensitive information disclosure and security restriction bypass on the\ntargeted system.\nFor complete list of aﬀected products, CVEs, workarounds and solutions, refer to the oracle advisory:\nhttps://www.oracle.com/security-alerts/cpuoct2025.html\nSolution\nApply appropriate updates as mentioned in Oracle updates:  \nhttps://www.oracle.com/security-alerts/cpuoct2025.html\nVendor Information\nOracle\nhttps://www.oracle.com/security-alerts/cpuoct2025.html\nReferences\nOracle\nhttps://www.oracle.com/security-alerts/cpuoct2025.htmlCERT-In Advisory Notes https://www.cert-in.org.in/s2cMainServlet?pageid=PUBV...\n1 of 2 11/3/25, 11:52"
+    },
+    {
+      "page": 2,
+      "text": "Disclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.org.in\nPhone: +91-11-22902657\nPostal address\nIndian Computer Emergency Response Team (CERT-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 110 003\nIndia\n CERT-In Advisory Notes https://www.cert-in.org.in/s2cMainServlet?pageid=PUBV...\n2 of 2 11/3/25, 11:52"
+    }
+  ],
+  "parsed": {
+    "title": "CERT-In Advisory CIAD-2025-0039",
+    "advisory_id": "CIAD-2025-0039",
+    "original_issue_date": "October 22, 2025",
+    "severity_rating": "High",
+    "software_affected": [],
+    "overview": null,
+    "target_audience": "Individuals and organisational users of the above-mentioned Oracle products.",
+    "risk_assessment": "High risk of information disclosure, data manipulation, system instability and arbitrary code execution.",
+    "impact_assessment": "Potential unauthorized access to sensitive information, denial of service, data manipulation, and complete takeover of control of",
+    "description": "Oracle products are used for several applications including enterprise-level data management, cloud",
+    "solution": "Apply appropriate updates as mentioned in Oracle updates:  \nhttps://www.oracle.com/security-alerts/cpuoct2025.html",
+    "vendor_information": "Oracle\nhttps://www.oracle.com/security-alerts/cpuoct2025.html",
+    "references": [
+      "https://www.oracle.com/security-alerts/cpuoct2025.html",
+      "https://www.oracle.com/security-alerts/cpuoct2025.htmlCERT-In",
+      "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBV..."
+    ],
+    "cve_names": []
+  }
+}

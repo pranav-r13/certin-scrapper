@@ -1,0 +1,47 @@
+{
+  "source_file": "CERT-In Advisory Notes oct 28 2025.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "CER T-In Advisory CIAD-2025-0040\nMultiple Vulnerabilities in Atlassian Pr oducts\nOriginal Issue Date: October 28, 2025\nSeverity Rating: High\nSoftware Affected\nBamboo Data Center and Server\nFisheye/Crucible\nJira Data Center and Server\nJira Service Management Data Center and Server\nOverview\nMultiple vulnerabilities have been reported in Atlassian Products which could allow an attacker to perform Path Traversal (Arbitrary Write), HTTP\nRequest Smuggling, SMTP  Injection or cause DoS (Denial of Service) conditions on the tar geted system.\nTarget Audience:\nIndividuals and or ganisational users of the above mentioned Atlassian products.\nRisk Assessment:\nHigh risk of sensitive information disclosure, resource exhaustion or session hijacking.\nImpact Assessment:\nPotential for unauthorized access, service disruption or system compromise.\nDescription\nAtlassian products are used by software development teams, IT  operations, project management professionals and business teams. Some of the\nproducts in the Atlassian suite include Jira, Fisheye and Bamboo.\nMultiple vulnerabilities have been reported in various Atlassian Products; Details of which are provided below:03/11/2025, 10:26 CERT-In Advisory Notes\nabout:blank 1/3"
+    },
+    {
+      "page": 2,
+      "text": "Solution\nApply appropriate updates as mentioned in Atlassian security bulletin:  \nhttps://confluence.atlassian.com/securit y/securit y-bulletin-october -21-2025-1652920034.html\nVendor Information\nAtlassian\nhttps://confluence.atlassian.com/securit y/securit y-bulletin-october -21-2025-1652920034.html\nRefer ences\nAtlassian\nhttps://confluence.atlassian.com/securit y/securit y-bulletin-october -21-2025-1652920034.html\nCVE Name\nCVE-2025-48989\nCVE-2025-48976\nCVE-2025-22167\nCVE-2025-58057\nCVE-2025-58056\nCVE-2025-7962\nDisclaimer\nThe information provided herein is on \"as is\" basis, without warranty of any kind.\nContact Information\nEmail: info@cert-in.or g.in\nPhone: +91-1 1-22902657\nPostal address\nIndian Computer Emer gency Response Team (CER T-In)\nMinistry of Electronics and Information Technology\nGovernment of India\nElectronics Niketan\n6, CGO Complex, Lodhi Road,\nNew Delhi - 1 10 003\nIndia03/11/2025, 10:26 CERT-In Advisory Notes\nabout:blank 2/3"
+    },
+    {
+      "page": 3,
+      "text": " 03/11/2025, 10:26 CERT-In Advisory Notes\nabout:blank 3/3"
+    }
+  ],
+  "parsed": {
+    "title": null,
+    "advisory_id": "Notes",
+    "original_issue_date": "October 28, 2025",
+    "severity_rating": "High",
+    "software_affected": [
+      "Bamboo Data Center and Server",
+      "Fisheye/Crucible",
+      "Jira Data Center and Server",
+      "Jira Service Management Data Center and Server"
+    ],
+    "overview": null,
+    "target_audience": "Individuals and or ganisational users of the above mentioned Atlassian products.",
+    "risk_assessment": "High risk of sensitive information disclosure, resource exhaustion or session hijacking.",
+    "impact_assessment": "Potential for unauthorized access, service disruption or system compromise.",
+    "description": "Atlassian products are used by software development teams, IT  operations, project management professionals and business teams. Some of the\nproducts in the Atlassian suite include Jira, Fisheye and Bamboo.\nMultiple vulnerabilities have been reported in various Atlassian Products; Details of which are provided below:03/11/2025, 10:26 CERT-In Advisory Notes\nabout:blank 1/3",
+    "solution": "Apply appropriate updates as mentioned in Atlassian security bulletin:  \nhttps://confluence.atlassian.com/securit y/securit y-bulletin-october -21-2025-1652920034.html",
+    "vendor_information": "Atlassian\nhttps://confluence.atlassian.com/securit y/securit y-bulletin-october -21-2025-1652920034.html\nRefer ences\nAtlassian\nhttps://confluence.atlassian.com/securit y/securit y-bulletin-october -21-2025-1652920034.html",
+    "references": [
+      "https://confluence.atlassian.com/securit"
+    ],
+    "cve_names": [
+      "CVE-2025-48989",
+      "CVE-2025-48976",
+      "CVE-2025-22167",
+      "CVE-2025-58057",
+      "CVE-2025-58056",
+      "CVE-2025-7962"
+    ]
+  }
+}
